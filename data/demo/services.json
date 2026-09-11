@@ -1,0 +1,61 @@
+[
+  {
+    "service_id": "EDU-AST-001",
+    "service_name": "Demo Female Child Education Assistance",
+    "description": "Financial assistance for the education of female children to promote literacy and reduce dropout rates.",
+    "purpose": "education assistance",
+    "eligibility_rules": [
+      "Applicant must be a resident of the state.",
+      "Annual family income must be below 2,00,000 INR.",
+      "Applicable for female children studying in classes 8 to 12."
+    ],
+    "required_documents": [
+      "Identity proof",
+      "Address proof",
+      "Income certificate",
+      "School enrollment certificate"
+    ],
+    "application_steps": [
+      "Gather all required documents.",
+      "Visit the nearest local government office.",
+      "Submit the application form with documents.",
+      "Collect the acknowledgement receipt."
+    ],
+    "official_source_url": "https://example.gov.demo/edu-scheme",
+    "source_name": "Demo Government Portal",
+    "last_verified_at": "2026-09-11",
+    "region_state": "All Regions",
+    "languages": ["en", "bn", "hi"],
+    "disclaimer": "AI GUIDANCE ONLY. This is demo data for the hackathon. Not an official government requirement."
+  },
+  {
+    "service_id": "BIZ-GRT-002",
+    "service_name": "Demo Micro-Enterprise Starter Grant",
+    "description": "Seed funding for unemployed youth to start micro-businesses.",
+    "purpose": "business grant unemployment",
+    "eligibility_rules": [
+      "Applicant age must be between 18 and 35 years.",
+      "Must be currently unemployed.",
+      "Must have completed at least 10th standard education."
+    ],
+    "required_documents": [
+      "Identity proof",
+      "Age proof",
+      "Educational certificates",
+      "Unemployment declaration form",
+      "Basic business plan"
+    ],
+    "application_steps": [
+      "Register on the demo enterprise portal.",
+      "Upload scanned copies of required documents.",
+      "Submit the business plan for review.",
+      "Attend the verification interview."
+    ],
+    "official_source_url": "https://example.gov.demo/biz-grant",
+    "source_name": "Demo Enterprise Board",
+    "last_verified_at": "2026-09-11",
+    "region_state": "All Regions",
+    "languages": ["en", "bn", "hi"],
+    "disclaimer": "AI GUIDANCE ONLY. This is demo data for the hackathon. Not an official government requirement."
+  }
+]

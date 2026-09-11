@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #000000;
+    --text: #ffffff;
+    --muted: #8e8e8e;
+    --nav-text: #2e2e2e;
+    --pill-dark: #28282a;
+    --sign-in-text: #c8c8c8;
+    --nav-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+    --trust-bg: #28282a;
+    --trust-border: rgba(255, 255, 255, 0.4);
+    --trust-text: #c4c2c3;
+    --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
+    --font-display: "BubbledotICG-FinePos", monospace;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Video Background & Landing Animations */
+.bg-video-container {
+  position: absolute;
+  inset: 0;
+  background-color: #000;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
